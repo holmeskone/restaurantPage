@@ -1,5 +1,18 @@
 /* styles.css */
 body {
     background-color: #F9F3EB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8vh 0vh;
   }
-  
+
+div #content{
+    display: grid;
+}
+div #hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div #right-hero img{
+    width: 450px;
+}
