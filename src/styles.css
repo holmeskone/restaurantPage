@@ -8,9 +8,12 @@ nav{
     margin: 8vh 0 3vh 0;
 }
 
+
 div #content{
     display: grid;
 }
+
+/*Hero Section*/
 div #hero{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -59,3 +62,121 @@ div #right-hero img{
     width: 45vw;
 }
 
+
+/*About Section*/
+div#about{
+    display: grid;
+    padding: 5vh 3vw;
+    justify-content: space-between;
+}
+
+div#about-title {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+div#about-title h3{
+    color: #FB410D;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+div#list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div.feature p{
+color: gray;
+    
+}
+
+div #quality {
+    margin: 0px 1rem;
+    padding: 2rem 1rem;
+    background-color: #FFEEEB;
+    border-radius: 20px;
+}
+
+
+div #delivery {
+    margin: 0px 1rem;
+    padding: 2rem 1rem;
+    background-color: #F5F2FF;
+    border-radius: 20px;
+}
+
+div #delivery {
+    margin: 0px 1rem;
+    padding: 2rem 1rem;
+    background-color: #F5F2FF;
+    border-radius: 20px;
+}
+
+div #hygene {
+    margin: 0px 1rem;
+    padding: 2rem 1rem;
+    background-color: #FFF1DD;
+    border-radius: 20px;
+}
+
+
+div #order {
+    margin: 0px 1rem;
+    padding: 2rem 1rem;
+    background-color: #EEFBF2;
+    border-radius: 20px;
+}
+
+
+/*Menu Section*/
+div #menu-section{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    padding: 5vh 3vw;
+    background-color: #F9F3EB;
+    justify-content: center;
+}
+
+div#menu-title {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+div#menu-title h3{
+    color: #FB410D;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+div#menu-list {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 50vw;
+}
+
+div.dish{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: white;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+div.dish h4{
+    font-size: 1.25rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.dish h5{
+    font-size: 1rem;
+    color: #FB410D;
+    margin: 0px;
+}
+div.dish p{
+    margin: 0px;
+}
