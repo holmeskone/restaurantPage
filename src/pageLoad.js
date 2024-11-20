@@ -10,7 +10,7 @@ export default function loadPage() {
     leftHero.id = "left-hero";
 
     const specialOffer = document.createElement("h2");// Creates h2 as the special offer on the  left side of the hero section
-    specialOffer.textContent = 'Limited Time Offer For 15CHF';
+    specialOffer.textContent = 'Limited Time Offer For $15';
     const heroTitle = document.createElement("h1");// Creates h1 as the special offer on the  left side of the hero section
     heroTitle.textContent = "Best Pizza in Town";
     const heroCTA = document.createElement("button");// Creates button as the special offer on the  left side of the hero section
