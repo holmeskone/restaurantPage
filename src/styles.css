@@ -85,6 +85,7 @@ div#about-title h3{
 div#list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 10vh;
 }
 
 div.feature p{
@@ -164,6 +165,12 @@ div.dish{
     align-items: center;
     padding: 1rem;
     margin-bottom: 1rem;
+    border-radius: 20px;
+}
+
+div.dish img{
+    width: 8vw;
+    padding-right: 1rem;
 }
 
 div.dish h4{
@@ -173,10 +180,19 @@ div.dish h4{
 }
 
 div.dish h5{
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #FB410D;
     margin: 0px;
+    justify-self: center;
 }
 div.dish p{
     margin: 0px;
+    font-size: 0.9rem;
+    color: gray;
+    padding-top: 1vh;
+}
+
+div .dish-details{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
 }
