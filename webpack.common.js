@@ -5,10 +5,6 @@ const path = require('path');
    entry: {
      app: './src/index.js',
    },
-   devtool: "eval-source-map",
-  devServer: {
-    watchFiles: ["./src/template.html"],
-    },
    plugins: [
      new HtmlWebpackPlugin({
        title: 'Production',
